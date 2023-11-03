@@ -1,13 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1", "name": "666" },
-    { "id": 2, "title": "Post 2", "name": "777" }
+  "posts":
+  [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "name": "666"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
+  "config":
+  {
+    "deviceControl":
+    {
+      "backTimeOut": 5,
+      "legTimeOut": 4
+    },
+    "addTelopList": "telop list",
+    "positionData":
+    {
+      "start": "品川",
+      "end": "新横浜"
+    },
+    "notificationTiming": "2023-11-03 15:23",
+    "resetDevice": false,
+    "resetSetting": false
+  },
+  "profile":
+  {
     "name": "typicode"
   }
 }
