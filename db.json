@@ -9,20 +9,18 @@
   ],
   "config":
   {
-    "deviceControl":
+    "telops":
+    [
+      {
+        "telop": "次は　名古屋"
+      }
+    ],
+    "driving_section":
     {
-      "backTimeOut": 5,
-      "legTimeOut": 4
+      "start": "三河安城",
+      "end": "名古屋"
     },
-    "addTelopList": "telop list",
-    "positionData":
-    {
-      "start": "品川",
-      "end": "新横浜"
-    },
-    "notificationTiming": "2023-11-03 15:23",
-    "resetDevice": false,
-    "resetSetting": false
+    "arrival_melody": "16:10"
   },
   "profile":
   {
